@@ -25,11 +25,11 @@ aum.procesarempleados(emp5);
 
 let salida = document.getElementById("salida");
 salida.innerHTML = `
-<p>Juan tiene un aumento de $${aum.aumentopagos()}</p>
-<p>Ana tiene un aumento de $${aum.aumentopagos()}</p>
-<p>Lin tiene un aumento de $${aum.aumentopagos()}</p>
-<p>Mary tiene un aumento de $${aum.aumentopagos()}</p>
-<p>Carlos tiene un aumento de $${aum.aumentopagos()}</p>
+<p>Juan tiene un aumento de $${emp.aumentopagos()}</p>
+<p>Ana tiene un aumento de $${emp2.aumentopagos()}</p>
+<p>Lin tiene un aumento de $${emp3.aumentopagos()}</p>
+<p>Mary tiene un aumento de $${emp4.aumentopagos()}</p>
+<p>Carlos tiene un aumento de $${emp5.aumentopagos()}</p>
 <p>El total de monto adicional que debe pagar la empresa es de $${aum.montototal()} </p>
 
 

@@ -17,10 +17,6 @@ export default class Cl_aumento {
         }
     }
 
-    aumentopagos(){
-        return this.aumentosueldo;
-    }
-
     montototal(){
         return this.totalmontobre + this.totalmontoad;
     }

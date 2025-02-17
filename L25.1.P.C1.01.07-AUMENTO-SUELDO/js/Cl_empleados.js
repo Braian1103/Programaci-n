@@ -12,4 +12,13 @@ export default class Cl_empleados {
     get personal() {
         return this._personal;
     }
+
+    aumentopagos(){
+         if (this.personal == "obrero") {
+          return  this.monto * 0.2;
+        } 
+        if (this.personal == "administrativo") {
+           return this.monto * 0.1;
+        }
+    }
 }
